@@ -54,15 +54,16 @@
             <div class="slide" id="s3"></div>
             <div class="slide">
                 <div class="contener">
-                    <img id="slide" src = "background-pattern.svg">
+                    <div class="sketchfab-embed-wrapper"> 
+                        <iframe title="hedgehog" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/594f37a181194a46845c1698ea26b9b0/embed"> 
+                        </iframe> 
+                    </div>
                 </div>
                 <button class="slideButton" id="left" onclick="image(0)"></button>
                 <button class="slideButton" id="right" onclick="image(1)"></button>
             </div>
         </div>
     </div>
-    <model-viewer src="scene.gltf" alt="A 3D model of a car" show-intensity="1" camera-controls auto-rotate ar>
-    </model-viewer>
     
     <script type="module"
         src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js">

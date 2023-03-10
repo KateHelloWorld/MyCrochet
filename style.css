@@ -226,6 +226,7 @@ li:hover ~ li#chosen{
     opacity: 0.5;
 }
 .slideButton{
+    display:none;
     background-color:rgba(82, 87, 89, 0.361);
     opacity: 0;
     position: absolute;
@@ -235,9 +236,8 @@ li:hover ~ li#chosen{
 button.slideButton#right{
     transform: translate(100%);
 }
-model-viewer{
-    width: 100%;
-    height: 600px;
-    background-color: black;
-
+iframe{
+    border-radius: 20px;
+    height: 510px;
+    width: 510px;
 }
